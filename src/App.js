@@ -8,7 +8,7 @@ class App extends React.Component {
     super(props);
     
     this.state = {
-      myInput: "here is the input...",
+      myInput: "",
       myOutput: ""
     }
     this.prepareOutput = this.prepareOutput.bind(this);
