@@ -106,7 +106,7 @@ render(){
           </tr>
           </tbody>
 
-        </table>
+        </table> 
         <button onClick={this.prepareOutput} className = "App-button">Beautify</button>
       </center>
     </div>
