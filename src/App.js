@@ -13,6 +13,9 @@ class App extends React.Component {
     }
     this.prepareOutput = this.prepareOutput.bind(this);
     this.updateData= this.updateData.bind(this);
+
+    //For changing the background of the page lol
+    document.body.style = 'background: #282c34;';
   };
 
   prepareOutput(){
@@ -93,18 +96,18 @@ render(){
           <tbody>
           <tr>
             <td>
-              <h3>Input</h3>
-              <textarea rows="10" cols="50" value={this.state.myInput} onChange={this.updateData}>{this.state.myInput}</textarea>
+              <h3 className="App-header">Input</h3>
+              <textarea rows="10" cols="50" value={this.state.myInput} onChange={this.updateData} className = "App-textbox">{this.state.myInput}</textarea>
             </td>
             <td>
-              <h3>Output</h3>
-  <textarea rows="10" cols="50" value={this.state.myOutput}></textarea>
+              <h3 className="App-header">Output</h3>
+  <textarea rows="10" cols="50" value={this.state.myOutput} className = "App-textbox"></textarea>
             </td>
           </tr>
           </tbody>
 
         </table>
-        <button onClick={this.prepareOutput}>Beautify</button>
+        <button onClick={this.prepareOutput} className = "App-button">Beautify</button>
       </center>
     </div>
   );
