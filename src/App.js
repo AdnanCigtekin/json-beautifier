@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-
+//TODO: Make current colorful output only output. Also make screen more beautiful.
 class App extends React.Component {
 
   constructor(props){
@@ -21,8 +21,7 @@ class App extends React.Component {
     document.body.style = 'background: #282c34;';
   };
 
-  //TODO: Find a way to Write everything in one line as objects
-  //TODO: Changing "Aposthrope" class to a general purpose class might be a good idea.
+
   writeMyOutput(){
 
     let StringElements = "'\""
