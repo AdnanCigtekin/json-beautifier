@@ -25,6 +25,67 @@
   color: white;
 }
 
+.App-aposth{
+  color: red;
+  display: inline-block;
+  text-align: left;
+  margin-top: 1px;
+}
+.App-comma{
+  color: red;
+  display: inline-block;
+  text-align: left;
+  margin-top: 1px;
+}
+
+.App-var{
+  color: rgb(92, 153, 245);
+  display: inline-block;
+  text-align: left;
+  margin-top: 1px;
+}
+
+.App-paranth{
+  color: rgb(0, 255, 98);
+  display: inline-block;
+  text-align: left;
+  margin-top: 1px;
+}
+
+.App-string{
+  color: rgb(246, 237, 107);
+  display: inline-block;
+  text-align: left;
+  margin-top: 1px;
+}
+.App-text-container{
+  display: inline-block;
+  text-align: left;
+  margin-top: 1px;
+}
+
+.App-list{
+  margin-top: 1px;
+}
+
+
+.App-normal-character{
+  color: white;
+  line-height: 80%;
+  font-size: smaller;
+  
+}
+
+.App-tab{
+  opacity:0;
+  left:50px;
+  display:inline-block;
+}
+
+.App-curly{
+  color: greenyellow;
+}
+
 .App-button{
   background-color: #5c6578;
   color: white;
