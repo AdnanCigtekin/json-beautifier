@@ -23,6 +23,9 @@
 .App-textbox {
   background-color: #3f4552;
   color: white;
+  width: 50vw;
+  height: 85vh;
+  resize: none;
 }
 
 .App-aposth{
@@ -62,10 +65,18 @@
   display: inline-block;
   text-align: left;
   margin-top: 1px;
+  width: 45vw;
+  height: 85vh;
+  overflow:scroll;
+  background-color: #282c34;
 }
 
 .App-list{
   margin-top: 1px;
+  /*user-select: all; TODO: will be added in the future releases*/
+  color:white;
+  background-color: #282c34;
+ /* overflow:scroll; */
 }
 
 
@@ -77,8 +88,8 @@
 }
 
 .App-tab{
-  opacity:0;
-  left:50px;
+  opacity:1;
+  tab-size: 4;
   display:inline-block;
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-//TODO: Make current colorful output only output. Also make screen more beautiful.
+
 class App extends React.Component {
 
   constructor(props){
@@ -11,7 +11,7 @@ class App extends React.Component {
     this.state = {
       myInput: "",
       myOutput: "",
-      outputElements: "",
+      outputElements: "Output will be here...",
       finaloutput:""
     }
     this.prepareOutput = this.prepareOutput.bind(this);
@@ -35,7 +35,7 @@ class App extends React.Component {
         let passedColon = false;
         element.split("").forEach(index => {
           if(index === "\t"){
-            tempElements.push(<span className="App-tab">_______</span>);
+            tempElements.push(<span className="App-tab">&emsp;</span>);
           }
           else if(index === ","){
             tempElements.push(<span className="App-comma">,</span>);
@@ -160,27 +160,29 @@ render(){
   return (
     <div className="App" >
       <center>
+      <button onClick={this.prepareOutput} className = "App-button">Beautify</button>
         <table>
           <tbody>
           <tr>
             <td>
-              <h3 className="App-header">Input</h3>
-              <textarea rows="10" cols="50" value={this.state.myInput} onChange={this.updateData} className = "App-textbox">{this.state.myInput}</textarea>
+              <textarea rows="10" cols="50" value={this.state.myInput} onChange={this.updateData} className = "App-textbox" placeholder="Input will be here...">{this.state.myInput}</textarea>
             </td>
             <td>
-              <h3 className="App-header">Output</h3>
-  <textarea rows="10" cols="50" value={this.state.myOutput} className = "App-textbox"></textarea>
+ {/*} <textarea rows="10" cols="50" value={this.state.myOutput} className = "App-textbox"></textarea> {*/}
+      <div className="App-text-container">
+          <span className="App-list">{this.state.outputElements}</span>
+
+      </div>
+
             </td>
           </tr>
           </tbody>
 
         </table> 
-        <button onClick={this.prepareOutput} className = "App-button">Beautify</button>
+       
 
       </center>
-      <div className="App-text-container">
-          <span className="App-list">{this.state.outputElements}</span>
-      </div>
+
     </div>
   );
 }
