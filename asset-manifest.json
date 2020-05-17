@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/json-beautifier/static/css/main.210a7953.chunk.css",
+    "main.css": "/json-beautifier/static/css/main.96996eff.chunk.css",
     "main.js": "/json-beautifier/static/js/main.43e05415.chunk.js",
     "main.js.map": "/json-beautifier/static/js/main.43e05415.chunk.js.map",
     "runtime-main.js": "/json-beautifier/static/js/runtime-main.63b7c743.js",
@@ -8,16 +8,16 @@
     "static/js/2.46cc8a5d.chunk.js": "/json-beautifier/static/js/2.46cc8a5d.chunk.js",
     "static/js/2.46cc8a5d.chunk.js.map": "/json-beautifier/static/js/2.46cc8a5d.chunk.js.map",
     "index.html": "/json-beautifier/index.html",
-    "precache-manifest.0faa96b09c22794ad1ef594d38fe8ebc.js": "/json-beautifier/precache-manifest.0faa96b09c22794ad1ef594d38fe8ebc.js",
+    "precache-manifest.4c4f52c5649152e4394345b56d9da7b4.js": "/json-beautifier/precache-manifest.4c4f52c5649152e4394345b56d9da7b4.js",
     "service-worker.js": "/json-beautifier/service-worker.js",
-    "static/css/main.210a7953.chunk.css.map": "/json-beautifier/static/css/main.210a7953.chunk.css.map",
+    "static/css/main.96996eff.chunk.css.map": "/json-beautifier/static/css/main.96996eff.chunk.css.map",
     "static/js/2.46cc8a5d.chunk.js.LICENSE.txt": "/json-beautifier/static/js/2.46cc8a5d.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/json-beautifier/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.63b7c743.js",
     "static/js/2.46cc8a5d.chunk.js",
-    "static/css/main.210a7953.chunk.css",
+    "static/css/main.96996eff.chunk.css",
     "static/js/main.43e05415.chunk.js"
   ]
 }
