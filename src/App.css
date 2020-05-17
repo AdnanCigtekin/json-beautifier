@@ -26,6 +26,7 @@
   width: 50vw;
   height: 85vh;
   resize: none;
+  font-size: none;
 }
 
 .App-aposth{
@@ -33,12 +34,14 @@
   display: inline-block;
   text-align: left;
   margin-top: 1px;
+  font-size: smaller;
 }
 .App-comma{
   color: red;
   display: inline-block;
   text-align: left;
   margin-top: 1px;
+  font-size: smaller;
 }
 
 .App-var{
@@ -46,6 +49,7 @@
   display: inline-block;
   text-align: left;
   margin-top: 1px;
+  font-size: smaller;
 }
 
 .App-paranth{
@@ -53,6 +57,7 @@
   display: inline-block;
   text-align: left;
   margin-top: 1px;
+  font-size: smaller;
 }
 
 .App-string{
@@ -60,6 +65,7 @@
   display: inline-block;
   text-align: left;
   margin-top: 1px;
+  font-size: smaller;
 }
 .App-text-container{
   display: inline-block;
@@ -73,7 +79,7 @@
 
 .App-list{
   margin-top: 1px;
-  /*user-select: all; TODO: will be added in the future releases*/
+  /*user-select: all; TODO: will be added in the future releases. P.S. Add auto-copy to clipboard functionality*/
   color:white;
   background-color: #282c34;
  /* overflow:scroll; */
